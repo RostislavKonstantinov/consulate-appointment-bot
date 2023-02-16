@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "consulate-appointment-bot"
+version = "0.1.0"
+description = ""
+authors = ["Rostislav Konstantinov <rostislav.konstantinov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+selenium = "^4.5.0"
+pytesseract = "^0.3.10"
+opencv-python = "^4.6.0.66"
+random-user-agent = "^1.0.1"
+fake-useragent = "^0.1.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
